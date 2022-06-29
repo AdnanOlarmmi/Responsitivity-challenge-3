@@ -1,0 +1,43 @@
+
+  @font-face {
+    font-family: 'Roboto'; /* this value can be anything you wish - it gets used in the class definition below */
+    src: url('Roboto/Roboto-Black.ttf'); /* add the file path to your font here */
+  }
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Roboto;
+}
+
+.container{
+    background-color: #23424A;
+    padding: 5em;
+    
+}
+
+.childContainer{
+    width: 50%;
+    max-width: 750px;
+    
+}
+
+h1{
+    
+    color:#FFFFFF;
+}
+p{
+    color:#FFFFFF;
+    line-height: 1.5;
+}
+
+button {
+    background-color: #38CFD9;
+    color: #072A2D;
+    border-radius: 31.5px;
+    padding:1em;
+    border: 0;
+    
+}
