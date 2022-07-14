@@ -1,44 +1,69 @@
+@font-face {
+    font-family: 'Roboto';
+    
+    /* this value can be anything you wish - it gets used in the class definition below */
+    src: url('Roboto/Roboto-Regular.ttf') format("truetype");
+    /* add the file path to your font here */
+}
 
-  @font-face {
-    font-family: 'Roboto'; /* this value can be anything you wish - it gets used in the class definition below */
-    src: url('Roboto/Roboto-Regular.ttf'); /* add the file path to your font here */
-  }
 
-
-*{
+* {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
     font-family: Roboto;
-    
+
 }
 
-.container{
+.container {
     background-color: #23424A;
     padding: 3em;
 }
 
-.childContainer{
+.childContainer {
     width: 50%;
     max-width: 750px;
 }
 
-h1{
-    color:#FFFFFF;
+h1 {
+    color: #FFFFFF;
     font-size: 48px;
 }
 
-p{
-    color:#FFFFFF;
+p {
+    color: #FFFFFF;
     line-height: 1.5;
-    font-size: 21px;
+    
 }
 
 button {
     background-color: #38CFD9;
     color: #072A2D;
     border-radius: 31.5px;
-    padding: 1em;
+    padding: 2em;
     border: 0;
-    font-size: 21px;  
+    
 }
+#learn{
+    font-size: 21px;
+}
+.row{
+    display: flex;
+    text-align: center;
+    
+}
+
+.blast{
+    color: #87629A;
+}
+.blast p{
+    color: #3A3A3A;
+}
+.last{
+    background-color: #136C72;
+    color: white;
+}
+.last p{
+    color: white;
+}
+
